@@ -56,7 +56,7 @@
         }
 
         .animate-gradient {
-            background: linear-gradient(-45deg, #0D1F17, #0a1612, #00FF99, #0AFF80);
+            background: linear-gradient(-45deg, #0D1F17, #0a1612, #1DB954, #1AA179);
             background-size: 400% 400%;
             animation: gradientShift 15s ease infinite;
         }
@@ -74,8 +74,12 @@
         .particle {
             position: absolute;
             border-radius: 50%;
-            background: rgba(0, 255, 153, 0.2);
+            background: rgba(29, 185, 84, 0.2);
             pointer-events: none;
+        }
+
+        .border-accent {
+            border-color: #1DB954;
         }
     </style>
 </head>
@@ -93,7 +97,7 @@
         <div class="glass-effect rounded-3xl shadow-2xl p-8 md:p-12 text-center animate-fadeIn">
             <!-- Avatar with GitHub profile picture -->
             <div class="mb-8 flex justify-center">
-                <div class="w-32 h-32 rounded-full animate-pulse-slow shadow-xl overflow-hidden border-4 border-[#00FF99]">
+                <div class="w-32 h-32 rounded-full animate-pulse-slow shadow-xl overflow-hidden border-4 border-accent">
                     <img src="https://github.com/sklyarvladislav.png" alt="sklyarvlad" class="w-full h-full object-cover">
                 </div>
             </div>
@@ -105,7 +109,7 @@
             
             <div class="flex flex-wrap justify-center gap-4 mb-6 animate-fadeIn" style="animation-delay: 0.4s;">
                 <span class="glass-effect px-6 py-2 rounded-full text-white text-lg font-semibold">
-                    17 y.o.
+                    18 y.o.
                 </span>
                 <span class="glass-effect px-6 py-2 rounded-full text-white text-lg font-semibold">
                     SUAI '28
@@ -152,7 +156,7 @@
         <!-- Footer -->
         <footer class="text-center mt-8 animate-fadeIn" style="animation-delay: 1.2s;">
             <p class="text-white opacity-75 text-sm">
-                &copy; 2024 created by sklyarvlad
+                &copy; 2025 created by sklyarvlad
             </p>
         </footer>
     </div>
